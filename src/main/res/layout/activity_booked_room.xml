@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#005f7f"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booked_room">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Booked_Rooms"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:drawableStart="@drawable/pw"
+        android:drawableLeft="@drawable/pw"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/textView9"
+        android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="47dp"
+
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="8dp">
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
